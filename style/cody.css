@@ -1,0 +1,398 @@
+/* CSS página Código Facilito */
+/* index.html *******************************************************************************************************************/
+
+/* color de fondo */
+body {
+  background-color: #002080;
+  /* fondo de siempre #004466 */
+  font-family: 'Slabo 27px', serif;
+}
+
+/* rectangulo en el que se situa el cuerpo */
+.recuadro {
+  -webKit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  border-radius: 10px;
+  border: .5% solid #f2f2f2;
+  background-color: #f2f2f2;
+  /* color de siempre #d2d2d2 */
+  width: 70%; /* 700px */
+  padding: 2%; /* 25px */
+
+}
+
+/* Logos Principales */
+img {
+  width: 140px;
+  height: 160px;
+}
+
+.logo-codigo-facilito {
+  width: 250px;
+  height: 120px;
+}
+
+/* Textos principales */
+.text-prin {
+  color: #000;
+  font-size: 70px;
+}
+
+.text-sec {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+h1, .tip-text {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.parr {
+  font-size: 20px;
+  opacity: .8;
+}
+
+/* Espacios entre si */
+.quitar-float {
+  float: none;
+}
+
+.espacio-arriba {
+  margin-top: 100px;
+}
+
+/* Navegaciones */
+.navegaciones {
+  font-size: 25px;
+  word-spacing: 10px;
+}
+.cuenta {
+  word-spacing: normal;
+}
+
+.tip-nav {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* alineamiento de imagen */
+.image-cursos {
+  width: 150px;
+  height: 180px;
+}
+
+.image-cursos-2 {
+  width: 150px;
+  height: 90px;
+}
+
+.image-cursos-3 {
+  width: 110px;
+  height: 90px;
+}
+
+.image-redes-sociales{
+  width: 50px;
+  height: 30px;
+}
+
+/* navegaciones */
+.alinear-nav {
+  text-align: left;
+}
+
+.fondo-nav {
+  background: alinear-gradient(90deg,
+  rgba(255, 255, 255, 0) 0%,
+  rgba(255, 255, 255, 0.2) 25%,
+  rgba(255, 255, 255, 0.2) 75%,
+  rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+  inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.al-nav {
+  word-spacing: 50px;
+}
+
+.editar-texto {
+  text-align: justify;
+}
+
+/* tamaños adicionales */
+.tamaño {
+  width: 80%;
+  height: 40%;
+}
+
+.tam-vid {
+  width: 50%;
+  height: 50%;
+}
+
+/* espacio del footer */
+.espacio-abajo {
+  margin-bottom: 100px;
+}
+
+/* estilo edicion halloween *****************************************************************************************************/
+/* index.html */
+
+/* mensaje para ingresar a la edición halloween */
+.espa-aba {
+  margin-bottom: 0px;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  border-radius: 0%;
+  border: 4px solid orange;
+  background-color: black;
+  width: 100%;
+  padding: 2%;
+  color: orange;
+}
+/* imagen */
+.cody {
+  width: 60px;
+  height: 60px;
+}
+/* textos */
+.par-ha {
+  font-size: 1.25em;
+  margin-left: 10%;
+}
+
+.hallo {
+  font-size: 1.56em;
+  margin-left: 7%;
+}
+/*  boton ingresar*/
+.frm {
+  margin-left: 90%;
+}
+
+/* halloween.html *****************************************************************************************************************/
+
+.style-halloween {
+  background-image: url("https://cde.laprensa.e3.pe/ima/0/0/1/9/9/199347/691x430.jpg");
+  /*url("http://as01.epimg.net/tikitakas/imagenes/2016/10/25/portada/1477403427_853143_1477403588_noticia_normal.jpg");*/
+  background-repeat: repeat-y;
+  background-size: 100% 30%;
+  background-color: black;
+}
+
+/* recuadro */
+.recuadro-2 {
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  border-radius: 10px;
+  border: .5% solid black;
+  background-color: black;
+  width: 70%;
+  padding: 2%;
+}
+
+/* estilo colmillos */
+
+.colmillos {
+  position: fixed;
+}
+
+/* colmollos de arriba */
+/* colmillo grande */
+.colmillo-1 {
+  background-color: transparent;
+  height: 120px;
+  width: 90px;
+  position: fixed;
+  border-radius: 0 0 10% 70%;
+  box-shadow: -50px 0px #fff;
+  top: 0px;
+  left: 275px;
+}
+
+.colmillo-2 {
+  background-color: transparent;
+  height: 120px;
+  width: 90px;
+  position: fixed;
+  border-radius: 0 0 70% 10%;
+  box-shadow: 50px 0px #fff;
+  top: 0px;
+  left: 895px;
+}
+
+/* colmillos pequeños */
+.colmi-1 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 50px solid #fff;
+  position: fixed;
+  top: 0px;
+  left: 280px;
+}
+
+.colmi-2 {
+  left: 330px;
+}
+
+.colmi-3 {
+  left: 370px;
+}
+
+.colmi-4 {
+  left: 420px;
+}
+
+.colmi-5 {
+  left: 470px;
+}
+
+.colmi-6 {
+  left: 520px;
+}
+
+.colmi-7 {
+  left: 560px;
+}
+
+.colmi-8 {
+  left: 610px;
+}
+
+.colmi-9 {
+  left: 660px;
+}
+
+.colmi-10 {
+  left: 710px;
+}
+
+.colmi-11 {
+  left: 760px;
+}
+
+.colmi-12 {
+  left: 800px;
+}
+
+.colmi-13 {
+  left: 850px;
+}
+
+.colmi-14 {
+  left: 900px;
+}
+
+.colmi-15 {
+  left: 940px;
+}
+
+/* colmillos de abajo */
+/* colmillo grande */
+.colmillo-a {
+  background-color: transparent;
+  height: 120px;
+  width: 90px;
+  position: fixed;
+  border-radius: 0 0 70% 10%;
+  box-shadow: 50px 0px #fff;
+  transform: rotate(180deg);
+  bottom: 0px;
+  left: 275px;
+}
+
+.colmillo-b {
+  background-color: transparent;
+  height: 120px;
+  width: 90px;
+  position: fixed;
+  border-radius: 10% 70% 0 0;
+  box-shadow: 50px 0px #fff;
+  bottom: 0px;
+  left: 895px;
+}
+
+/* colmillos pequeños */
+.colmi-a {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 50px solid #fff;
+  position: fixed;
+  transform: rotate(180deg);
+  bottom: 0px;
+  left: 280px;
+}
+
+.colmi-b {
+  left: 330px;
+}
+
+.colmi-c {
+  left: 370px;
+}
+
+.colmi-d {
+  left: 420px;
+}
+
+.colmi-e {
+  left: 470px;
+}
+
+.colmi-f {
+  left: 520px;
+}
+
+.colmi-g {
+  left: 560px;
+}
+
+.colmi-h {
+  left: 610px;
+}
+
+.colmi-i {
+  left: 660px;
+}
+
+.colmi-j {
+  left: 710px;
+}
+
+.colmi-k {
+  left: 760px;
+}
+
+.colmi-l {
+  left: 800px;
+}
+
+.colmi-m {
+  left: 850px;
+}
+
+.colmi-n {
+  left: 900px;
+}
+
+.colmi-ñ {
+  left: 940px;
+}
+
+/* color de letra */
+.text-color {
+  color: orange;
+}
+
+/* cursos.html **************************************************************************************************************/
+
+/* navegaciones */
+.navegaciones-2 {
+  font-size: 25px;
+}
